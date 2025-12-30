@@ -14,7 +14,7 @@ const port = 4000
 
 app.use(
   cors({
-    origin: "http://localhost:5173", // ✅ Vite frontend
+    origin: "https://ai-invoice-genrator-64x3.vercel.app/", // ✅ Vite frontend
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true,
