@@ -21,7 +21,7 @@ const FileTextIcon = ({ className }) => (
   </svg>
 );
 
-const API_BASE = "https://ai-invoice-genrator.vercel.app/";
+const API_BASE = "http://localhost:4000";
 
 /* -------------------- HELPERS -------------------- */
 const currencyFmt = (amount = 0, currency = "INR") => {
