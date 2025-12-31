@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { businessProfileStyles,iconColors,customStyles } from '../assets/dummyStyles'
 import { useAuth,useUser } from '@clerk/clerk-react'
 
-const API_BASE = "https://ai-invoice-genrator.vercel.app/";
+const API_BASE = "http://localhost:4000";
 //icons
 const UploadIcon = ({ className = "w-5 h-5" }) => (
   <svg
