@@ -14,7 +14,8 @@ const port = 4000
 
 app.use(
   cors({
-    origin: "https://ai-invoice-genrator-mipq.vercel.app", // ✅ Vite frontend
+    origin: [ "https://ai-invoice-genrator-mipq.vercel.app",
+      "https://ai-invoice-genrator-mipq-kk1g7wt2n.vercel.app"], // ✅ Vite frontend
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true,
