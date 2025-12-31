@@ -9,7 +9,7 @@ import {
 } from "../assets/dummyStyles";
 
 /* ---------- API BASE ---------- */
-const API_BASE = "https://ai-invoice-genrator.vercel.app/";
+const API_BASE = "http://localhost:4000";
 
 /* ---------- storage helpers (unchanged) ---------- */
 /* ----------------- frontend-only: normalize image URLs ----------------- */
